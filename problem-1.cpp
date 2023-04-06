@@ -7,9 +7,13 @@ int main() {
     cin >> n;
     vector<int> arr(n);
     for (int & x : arr) cin >> x;
-    sort(arr.begin(), arr.end());
-    for (int x : arr)
-        cout << x << " ";
-    cout << endl;
+    /*  
+        სანამ ვინმე ასეთ რამეს დამიწერთ, მე დაგასწრებთ და თქვენ აღარ ქნათ :D
+
+        sort(arr.begin(), arr.end());
+        for (int x : arr)
+            cout << x << " ";
+        cout << endl;
+    */
     return 0;
 }
